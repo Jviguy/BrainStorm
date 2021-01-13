@@ -1,4 +1,4 @@
-module fuck_de
+module github.com/jviguy/fuck_de
 
 go 1.14
 
