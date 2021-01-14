@@ -1,4 +1,4 @@
-module github.com/jviguy/fuck_de
+module github.com/jviguy/brainstorm
 
 go 1.14
 

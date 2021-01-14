@@ -26,10 +26,10 @@ func main() {
 		content = string(bs)
 	} else {
 		filename = "unknown file"
-		content = "Welcome to FuckDE a BrainFuck IDE!"
+		content = "Welcome to BrainStorm a BrainStorm IDE!"
 	}
 
-	wnd := nucular.NewMasterWindow(0, "FuckDe", updateFn())
+	wnd := nucular.NewMasterWindow(0, "BrainStorm", updateFn())
 	wnd.SetStyle(style.FromTheme(style.RedTheme, 2.0))
 	wnd.Main()
 }
